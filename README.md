@@ -15,16 +15,18 @@ To run execute: `vmd -dispdev text -e rhombicdodecahedron.tcl`
 
 ## Input
 
-psf    | Input CHARMM-compatible topology.
-pdb    | Input PDB coordinates.
-prefix | Prefix for segment id of water molecules.
-       | See TIPS below to customize. The solvate plugin default is 'WT'.
-inc    | Parameter to speedup the script. Every 'inc' C-alpha
-       | is considered in the calculation of the input molecule
-       | dimension. See TIPS below to customize.
-rbddh  | Output prefix for topology, coordinates and cell
-       | dimensions files.
-padding| Distance between the edge of the box to the closest C-alpha.
+Parameter | Description
+----------|------------
+psf       | Input CHARMM-compatible topology.
+pdb       | Input PDB coordinates.
+prefix    | Prefix for segment id of water molecules.
+          | See TIPS below to customize. The solvate plugin default is 'WT'.
+inc       | Parameter to speedup the script. Every 'inc' C-alpha
+          | is considered in the calculation of the input molecule
+          | dimension. See TIPS below to customize.
+rbddh     | Output prefix for topology, coordinates and cell
+          | dimensions files.
+padding   | Distance between the edge of the box to the closest C-alpha.
 
 ## Tips
 
