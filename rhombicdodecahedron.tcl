@@ -6,7 +6,7 @@
 # This script generates a rhombic dodecahedron water box given
 # initial CHARMM topology and coordinates. Cell dimensions and
 # origins are written to stdout and saved to a file for use in NAMD.
-# The input coordinates are centered in the process.
+# The input coordinates are centered to the origin in the process.
 # Only for proteins!
 # The larger the system, the longer the execution...
 #
